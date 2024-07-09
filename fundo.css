@@ -5,10 +5,14 @@ justify-items: center;
 
 position: absolute;
 bottom: 0;
+
+font-family: sans-serif;
 }
 
 img
 {
-    width: 5px;
-    height: 5px;
+    width: 40px;
+    height: 40px;
+    padding-left: 1vw;
+    padding-right: 0.2vw;
 }

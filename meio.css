@@ -19,18 +19,19 @@ h3
 #foto
 {
     margin: 1vw;
-    width: 20vw;
-    height: 20vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 100%;
-    background-image:url(imagens/cs.png);
+    background-image:url(imagens/minha\ imagem.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #Sobre
 {
     width: 500px;
+
 }
 
 #botoes
@@ -42,8 +43,8 @@ h3
 .circulo
 {
     margin: 1vw;
-    width: 180px;
-    height: 180px;
+    width: 110px;
+    height: 110px;
     border-radius: 100%;
     border: 1px black solid;
     display: flex;
@@ -54,13 +55,13 @@ h3
     transition: all 0.5s;
     user-select: none;  
     cursor: pointer;
-    font-size: 25px;
+    font-size: 15px;
     font-family:'FonteH' ;
 }
 .circulo:hover
 {
     box-shadow:3px 6px 3px rgba(0, 0, 0, 0.305);
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #Curriculo 
